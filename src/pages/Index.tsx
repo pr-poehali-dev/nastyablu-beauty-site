@@ -2,7 +2,7 @@ import { useState, useEffect, useRef } from "react";
 import Icon from "@/components/ui/icon";
 
 const HERO_IMAGE =
-  "https://cdn.poehali.dev/projects/36c4fada-3118-44f0-bda0-44e4bb39c16f/files/a7a82c66-c00b-42a9-aed9-0ed4ef5ffa5b.jpg";
+  "https://cdn.poehali.dev/projects/36c4fada-3118-44f0-bda0-44e4bb39c16f/files/0cb74fdd-38cd-48d7-a541-22b7fd29e9cc.jpg";
 
 const SERVICES = [
   {
@@ -215,11 +215,8 @@ export default function Index() {
             <p className="font-body text-xs tracking-[0.3em] uppercase text-gold mb-4">
               Студия реконструкции волос
             </p>
-            <h1 className="font-display text-7xl md:text-9xl font-light leading-none text-dark-brown mb-2">
-              Nasty
-            </h1>
-            <h1 className="font-display text-7xl md:text-9xl font-light leading-none text-shimmer mb-8">
-              ablu
+            <h1 className="font-display text-6xl md:text-8xl font-light leading-none text-shimmer mb-8 whitespace-nowrap">
+              Nastyablu
             </h1>
             <p className="font-body text-base font-light leading-relaxed text-muted-foreground mb-10 max-w-sm">
               Профессиональное восстановление волос любой степени повреждения.
@@ -669,7 +666,7 @@ export default function Index() {
       {/* FOOTER */}
       <footer className="bg-dark-brown text-white/60 py-10">
         <div className="max-w-6xl mx-auto px-6 flex flex-col md:flex-row items-center justify-between gap-4">
-          <p className="font-display text-2xl font-light text-white/90 tracking-widest">
+          <p className="font-display text-2xl font-light tracking-widest text-shimmer" style={{WebkitTextFillColor: 'unset', color: 'rgba(255,255,255,0.9)'}}>
             nastyablu
           </p>
           <p className="font-body text-xs tracking-widest uppercase">
